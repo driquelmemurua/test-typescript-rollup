@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es5",                          
+    "module": "esnext",
+    "jsx": "react",
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": false,
+    "declaration": true,
+    "declarationDir": "types",
+    "emitDeclarationOnly": true,
+    "noEmitOnError": true,
+    "lib": ["es2017"],                            
+    "typeRoots": ["node_modules/@types/"],
+    "rootDir": "./",
+  }
+  ,
+  "include": ["./src/**/*.ts"],
+  "extends": "./tsconfig.paths.json",
+}
